@@ -122,8 +122,8 @@ nav li:hover{
 /*******DropDown Services Start*****/
 
 .dropdown-services{
-    min-height: 50vh;
-    height: auto;
+    min-height: 50vh!important;
+    height: auto!important;
     background-color: var(--white-color);
     left: 0%;
 }
@@ -188,15 +188,16 @@ nav li:hover{
 
 @media (max-width: 1366px) {
     .dropdown-services li p{
-        font-size: 20px;
+        font-size: 20px!important;
     }
 }
 
 @media (max-width: 800px) {
-    .dropdown-services li p{
+    .dropdown-services li p, .p-services{
         font-size: 16px!important;
     }
 }
+
 /*******DropDown Services End*****/
 
 /*******DropDown Company Start*****/
