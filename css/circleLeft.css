@@ -1,0 +1,32 @@
+/*******CIRCLE START*****/
+.background_circle_left{
+    padding-left: 100px;
+    background: #212C85;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #212C85), color-stop(51%, #212C85), color-stop(51%, #FFFFFF), color-stop(100%, #FFFFFF));
+    background: linear-gradient(to bottom, #212C85 0%, #212C85 51%, #FFFFFF 51%, #FFFFFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#212C85", endColorstr="#FFFFFF", GradientType=0 );
+}
+  
+.container_small_circle_left{
+    height: 120px;
+    width: 100%;
+}
+  
+.background_circle_left img {
+    float: left;
+    width: auto;
+    height: 100%;
+}
+  
+@media (max-width: 1366px) {
+  .background_circle_left{
+      padding-left: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .background_circle_left{
+      padding-left: 50px;
+      margin-bottom: 80px;
+  }
+}
+/*******CIRCLE END*****/

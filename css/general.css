@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+button{
+    background-color: var(--primary-color)!important;
+	border: none;
+    font-size: 21px!important;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: var(--primary-color);
+}

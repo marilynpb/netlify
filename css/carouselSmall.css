@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+
+/* Carousel Start */
+.carouselSmall p{
+    width: 80%;
+    font-size: 20px;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+.carouselSmall h3{
+    font-size: 44px;
+    color: var(--text-color);
+    opacity: 1;
+    font-weight: bold;
+}
+
+.slideSmall{
+    left: 0;
+    display: none;
+}
+
+.slideSmall:first-child {
+    display: block;
+}
+
+.button-prev, .button-next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    min-width: 45px!important;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 10;
+}
+
+.button-prev {
+    transform: rotate(180deg);
+}
+
+.button-prev:hover, .button-next:hover {
+    background-color: #f9c0168b
+}
+
+.icons-content{
+    max-height: 550px;
+}
+
+@media (max-width: 1366px) {
+    .carouselSmall h3{
+        padding-top: 0px!important;
+        margin-top: -110px!important;
+        font-size: 35px;
+    }
+}
+@media (max-width: 1000px) {
+    .line{
+        height: 100px;
+    }
+}
+/* Carousel End */

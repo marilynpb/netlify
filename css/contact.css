@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+
+/*******Hero Start*****/
+.container_header{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--spacer-color);
+}
+
+.container_header_overlay {
+    width: 100%;
+    height: 85%;
+}
+
+.container_layout_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.layout_content_text {
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+.layout_content_text span{
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.layout_text_h1 {
+    color: var(--white-color);
+    font-size: 5.2083333333vw;
+    letter-spacing: 0.1041666667vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.layout_text_h3 {
+    color: var(--white-color);
+    font-size: 1.5625vw;
+    text-align: left;
+    font-weight: lighter;
+    padding-bottom: 0.5208333333vw;
+    opacity: 1;
+}
+
+.link-button{
+    font-size: 21px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.link-button:hover{
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+    .layout_text_h1{
+        font-size:  45px;
+    }
+    .layout_content_text span{
+        font-size: 30px;
+    }
+    .container_header{
+        height: auto;
+    }
+}
+/*******Hero End*****/
+
+/*******Section Offices/Contact Start*****/
+.contact-content{
+    min-height: 100vh;
+    background-color: var(--white-color);
+}
+
+.contact-content h2{
+    color: var(--text-color);
+    opacity: 1;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.contact-content h3{
+    font-size: 40px;
+    opacity: 1;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.contact-content h4{
+    font-size: 26px;
+    opacity: 1;
+    color: var(--spacer-color);
+    letter-spacing: 0.26px;
+    font-weight: bold;
+}
+
+.contact-content h5{
+    font-size: 26px;
+    opacity: 1;
+    color: var(--text-color);
+    letter-spacing: 0.26px;
+    font-weight: bold;
+}
+
+.contact-content p{
+    font-size: 26px;
+    opacity: 0.7;
+    color: var(--text-color);
+    letter-spacing: 0.26px;
+    font-weight: lighter;
+}
+
+.contact-content hr{
+    width: 88%;
+    opacity: 0.1;
+}
+
+td, th {
+    border: none;
+}
+
+.td-address{
+    height: 170px;
+}
+
+.letter-spacing-0{
+    letter-spacing: 0;
+}
+
+.contact-content article{
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    transition: border 0.3s ease-in-out;
+}
+
+.contact_cards{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1700px;
+    min-height: 70vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+}
+
+.item_contact {
+    flex-basis: 500px;
+    max-width: 640px;
+    flex-grow: 1;
+}
+
+.card-content-contact{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.article_contact {
+    min-height: 300px;
+    max-height: auto;
+    overflow: hidden;
+    padding: 15px 0 15px 0;
+    margin: 20px;
+    border: 0.5px solid rgba(52, 61, 63, 0);
+}
+
+.content-social{
+    list-style: none;
+}
+
+.content-social img{
+    width: 80px;
+    height: 80px;
+}
+
+
+@media (max-width:1400px) {
+    .item_contact {
+        max-width: 500px;
+    }
+    .card-content-contact{
+        width: 80%;
+    }
+}
+@media (max-width: 850px) {
+    .contact-content h2{
+        font-size: 45px;
+    }
+}
+@media (max-width: 576px) {
+    .article_contact {
+        min-height: auto;
+        max-height: 1000px;
+    }
+    .content-social img{
+        width: 60px;
+        height: 60px;
+    }
+}
+/*******Section Offices/Contact End*****/

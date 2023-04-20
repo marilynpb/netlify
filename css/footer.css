@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+/******* Features Start *****/
+.content-feature{
+    border-right:1px solid #343d3f5c;
+}
+
+.feature-section h2{
+    font-size: 60px;
+    color: var(--text-color);
+    opacity: 1;
+    font-weight: lighter;
+}
+
+.link-features{
+    background-color: var(--primary-color);
+    font-size: 20px;
+    opacity: 1;
+    width: 266px;
+    height: 42px;
+}
+
+.link-features:hover{
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.feature-section a:hover{
+    color: #343D3F;
+}
+
+@media (max-width: 1366px) {
+    .feature-section h2{
+        font-size: 50px;
+    }
+}
+@media (max-width: 991px) {
+    .content-feature{
+        border-right:none;
+    }
+}
+@media (max-width: 576px) {
+    .feature-section button{
+        width: 200px;
+        height: 45px;
+    }
+}
+ /******* Features End *****/
+
+
+  /******* Footer Start *****/
+footer{
+    background-color: var(--spacer-color);
+    color: var(--white-color);
+}
+
+footer a{
+    font-size: 20px;
+    color: var(--white-color);
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 16px;
+    color: var(--white-color);
+    font-weight: lighter;
+}
+
+@media (max-width: 1100px) {
+    footer a{
+        font-size: 18px;
+    }
+    
+footer p{
+    font-size: 14px;
+}
+}
+
+ /******* Footer End *****/

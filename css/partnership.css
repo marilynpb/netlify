@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+
+/*******Hero Start*****/
+.container_header{
+    width: 100%;
+    height: 71vh;
+    background-color: var(--spacer-color);
+}
+
+.container_header_overlay {
+    width: 100%;
+    height: 85%;
+}
+
+.container_layout_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.layout_content_text {
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+.layout_content_text span{
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.layout_text_h1 {
+    color: var(--white-color);
+    font-size: 5.2083333333vw;
+    letter-spacing: 0.1041666667vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.layout_text_h3 {
+    color: var(--white-color);
+    font-size: 1.5625vw;
+    text-align: left;
+    font-weight: lighter;
+    padding-bottom: 0.5208333333vw;
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .layout_text_h1{
+        font-size:  45px;
+    }
+    .layout_content_text span{
+        font-size: 30px;
+    }
+    .container_header{
+        height: auto;
+    }
+}
+/*******Hero End*****/
+
+/******* Section Partners Start*****/
+.partners-content h2{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 44px;
+    opacity: 1;
+}
+
+.partners-content p{
+    color: var(--text-color);
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.partners-content img{
+    min-width: 230px;
+}
+
+@media (max-width:1366px) {
+    .partners-content img{
+        width: 500px;
+    }
+}
+/******* Section Partners End*****/
+
+
+
+
+
+
+

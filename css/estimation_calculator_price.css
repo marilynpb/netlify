@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+/*******Section Price Start*****/
+.platform-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--text-color);
+    opacity: 1;
+}
+
+.platform-content-p{
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+.calculator-content p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: var(--text-color);
+    opacity: 1;
+}
+
+.card-team-border{
+    border: 0.5px solid #343d3f49;
+    border-radius: 10px;
+}
+
+tr, th, td{
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.calculator-content button{
+    width: 232px;
+    height: 48px;
+    border-radius: 21px;
+    background-color: var(--primary-color);
+    font-size: 21px;
+    opacity: 1;
+}
+
+.calculator-content button:hover{
+    background-color: var(--primary-color);
+}
+
+.calculator-content hr{
+    border: 1px solid #F9C216;
+    opacity: 0.5;
+}
+
+.calculator-content span{
+    font-weight: bold;
+}
+
+.card-team{
+    width: 570px!important;
+}
+
+.card-team .table p{
+    font-size: 20px;
+}
+
+.card-team .table h6{
+    font-size: 24px;
+    color: #333333;
+}
+
+.card-team input{
+    font-size: 16px;
+    border: 1px solid #B2B1B1;
+    border-radius: 5px;
+}
+
+.hours-h6{
+    font-size: 30px!important;
+}
+
+.p-hours{
+    font-size: 20px;
+    color: #333333;
+}
+
+
+@media (max-width:1200px) {
+    .card-calculate{
+        width: auto!important;
+    }
+    .card-team{
+    width: auto!important;
+    }
+}
+@media (max-width:1000px) {
+    .platform-content p{
+        font-size: 25px;
+    }
+    .calculator-content p{
+        font-size: 25px;
+    }
+    .card-calculate{
+        width: auto!important;
+    }
+    .card-team{
+    width: auto!important;
+    }
+}
+@media (max-width:500px) {
+    .calculator-content p{
+        font-size: 19px;
+    }
+    .card-team .table p{
+        font-size: 18px;
+    }
+    .card-team .table h6{
+        font-size: 20px;
+    }
+}
+/*******Section Price End*****/
+
+.feature-section-btn{
+    background-color: var(--primary-color);
+	border: none;
+    font-size: 21px!important;
+}
+
+.feature-section-btn:hover {
+	transform: scale(1.1);
+    background-color: var(--primary-color);
+}

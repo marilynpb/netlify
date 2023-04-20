@@ -1,0 +1,26 @@
+/******* Circle Background Transparent Start*****/
+.background_circle {
+    background: transparent;
+}
+
+.container_small_circle {
+    height: 120px;
+    width: 100%;
+}
+
+.container_big_circle {
+    height: 160px;
+    width: 100%;
+}
+
+.background_circle img {
+    float: right;
+    width: auto;
+    height: 100%;
+}
+@media (max-width: 1000px) {
+    .background_circle img{
+        display: none;
+    }
+}
+/******* Circle Background Transparent End*****/

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/*--------- Spacer Start ---------*/
+.spacer{
+    background-color: var(--spacer-color);
+}
+
+span{
+    color: var(--primary-color);
+}
+
+.spacer h2{
+    color:var(--white-color);
+    letter-spacing: 2px;
+    opacity: 1;
+    margin-bottom: 30px;
+    line-height: 80px;
+    font-size: 50px;
+}
+
+@media (max-width:1000px) {
+    .spacer h2{
+        font-size: 40px;
+    }
+}
+/*--------- Spacer End ---------*/
+

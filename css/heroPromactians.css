@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Product Sans Lighter";
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Product Sans Lighter';
+    background-color: var(--white-color);
+}
+
+/* Variable Define */
+:root{
+    --primary-color:#F9C216;
+    --white-color: #FFFFFF;
+    --text-color: #343D3F;
+    --spacer-color: #212C85;
+}
+
+/*******Section Hero Promactians Start*****/
+.promactians-content{
+    background-image: url(../img/Gallery/Group\ 484.png);
+    background-position: top;
+    height: 560px;
+    background-size: cover;
+}
+
+.promactians-content h2{
+    font-size: 60px;
+    letter-spacing: 2.4px;
+    opacity: 1;
+    font-weight: lighter;
+}
+
+.promactians-content span{
+    color: var(--white-color);
+    font-weight: bolder;
+    font-family: "Product Sans Bold";
+}
+
+.promactians-content p{
+    color: var(--white-color);
+    font-size: 30px;
+    opacity: 1;
+    font-weight: lighter;
+}
+
+@media (max-width:1000px) {
+    .promactians-content h2{
+        font-size: 45px;
+    }
+    .promactians-content p{
+        font-size: 25px;
+    }
+}
+/*******Section Hero Promactians End*****/
