@@ -129,8 +129,11 @@ nav li:hover{
 
 .dropdown-services{
     min-height: 50vh;
+    height: auto!important;
     background-color: var(--white-color);
     left: 0%;
+    left: 0%;
+    z-index: 999;
 }
 
 .dropdown-services h1{
@@ -196,12 +199,20 @@ nav li:hover{
         font-size: 20px;
     }
 }
+
+@media (max-width: 800px) {
+    .dropdown-services li p, .p-services{
+        font-size: 16px!important;
+    }
+}
 /*******DropDown Services End*****/
 
 /*******DropDown Company Start*****/
 .dropdown-company{
     min-height: 30vh;
+    height: auto;
     background-color: var(--white-color);
+    z-index: 999;
 }
 
 .dropdown-company h1{
@@ -264,9 +275,9 @@ nav li:hover{
     font-weight: bold!important;
 }
 
-@media (max-width: 1366px) {
-    .dropdown-company li p{
-        font-size: 20px;
+@media (max-width: 760px) {
+    .dropdown-company .container-links{
+        font-size: 14px!important;
     }
 }
 /*******DropDown Company End*****/
