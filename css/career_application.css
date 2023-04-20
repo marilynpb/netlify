@@ -269,6 +269,13 @@ td, th {
     .aplication-content label{
         font-size: 15px;
     }
+    .aplication-content h2{
+        font-size: 30px;
+    }
+    
+    .aplication-content h3{
+        font-size: 30px;
+    }
 }
 @media (max-width:1249px) {
     .aplication-content label{

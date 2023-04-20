@@ -115,22 +115,18 @@ body{
   }
   @media (max-width: 1366px) {
     .index-content{
-      margin-top: 0px;
+      display: none;
+    }
+    .container_layout_content {
+      height: 65%;
     }
   }
   @media (max-width: 1000px) {
-    .index-content{
-      display: none;
-    }
     .layout_text_h1,  .layout_text_span{
       font-size:  70px;
     }
   }
-  @media (max-width: 991px) {
-    .layout_text_h1 {
-      margin-top: -300px!important;
-    }
-  }
+
   /*******Hero End*****/
 
   /*******Section Clients Start*****/
