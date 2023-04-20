@@ -28,7 +28,7 @@ body{
 .container_header_overlay {
     width: 100%;
     height: 110vh;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
     z-index: 999;
   }
