@@ -236,12 +236,48 @@ td, th {
 	transform: scale(1);
 }
 
+@media (max-width:1770px) {
+    .aplication-content input, .aplication-content select{
+        width: 340px;
+        height: 45px;
+        font-size: 17px;
+    }
+}
+@media (max-width:1586px) {
+    .aplication-content label{
+        font-size: 18px;
+    }
+    .aplication-content input, .aplication-content select{
+        width: 260px;
+        font-size: 16px;
+    }
+}
+@media (max-width:1451px) {
+    .aplication-content label{
+        font-size: 17px;
+    }
+}
 @media (max-width:1400px) {
     .item_aplication {
         max-width: 500px;
     }
     .card-content-aplication{
         width: 80%;
+    }
+}
+@media (max-width:1384px) {
+    .aplication-content label{
+        font-size: 15px;
+    }
+}
+@media (max-width:1249px) {
+    .aplication-content label{
+        font-size: 14px;
+    }
+}
+@media (max-width:1200px) {
+    .aplication-content input, .aplication-content select{
+        width: 100%;
     }
 }
 @media (max-width: 850px) {

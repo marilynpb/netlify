@@ -225,6 +225,21 @@ body{
     font-size: 20px;
   }
 }
+
+@media (max-width:400px) {
+  .hero-teamWork h2{
+    font-size: 45px;
+  }
+  .hero-teamWork h3{
+    font-size: 35px;
+  }
+  .hero-teamWork h4{
+    font-size: 26px;
+  }
+  .hero-teamWork p{
+    font-size: 18px;
+  }
+}
 /*******Section TeamWork End*****/
 
 
