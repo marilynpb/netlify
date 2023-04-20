@@ -126,6 +126,7 @@ nav li:hover{
     height: auto!important;
     background-color: var(--white-color);
     left: 0%;
+    z-index: 999;
 }
 
 .dropdown-services h1{
@@ -205,6 +206,7 @@ nav li:hover{
     min-height: 30vh;
     height: auto;
     background-color: var(--white-color);
+    z-index: 999;
 }
 
 .dropdown-company h1{
