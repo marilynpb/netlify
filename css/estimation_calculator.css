@@ -8,6 +8,10 @@
     src: url('../font/product-sans/Product\ Sans\ Bold.ttf') format("truetype");
 }
 
+*{
+    max-width: 100%;
+}
+
 body{
     width: 100%;
     overflow-x: hidden;

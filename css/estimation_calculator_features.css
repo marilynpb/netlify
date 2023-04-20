@@ -15,6 +15,10 @@ body{
     background-color: var(--white-color);
 }
 
+*{
+    max-width: 100%;
+}
+
 /* Variable Define */
 :root{
     --primary-color:#F9C216;
